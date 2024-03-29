@@ -49,9 +49,6 @@ nav a {
     text-align: center;
 }
 
-nav a:hover {
-    background-color: #ddd;
-}
 
 .main-content {
     margin-left: 220px;
