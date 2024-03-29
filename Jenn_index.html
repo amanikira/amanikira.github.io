@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Jenn_style.css">
+  <title>Document</title>
+<style>
+  header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Adjusted for proportional spacing */
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  overflow: visible;
+  margin: 0 auto;
+}
+.navigation ul {
+  list-style: none;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-end; /* Aligns nav items to the right */
+  gap: 12px; /* Adjust spacing between nav items */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit; /* Adjust color to fit your design */
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="info-banner">
+
+       <h2>About Us ↓ </h2>
+    </div>
+    <div class="logo-container"><img class="logo" src="DoW_Logo.png" alt="Defenders of Wildlife Logo"></div>
+    
+    <h1><a href="#home">Defenders of Wildlife</a></h1>
+    <div class ="links">
+        <a href="#about">Mission</a>
+        <a href="#contact">Impact</a>
+        <a href="#take-action">Donate</a>
+        <a href="#" id="toggleMenu">Navigation</a></li>
+    </div>
+
+<nav class ="hidden" id="menu">
+    <a href="/MikaylaAbout.html">Contact</a>
+    <a href="/Jenn_index.html">About</a>
+    <a href="/index.html">Home</a>
+    <a href="/sandyIndex.html">Take Action</a>
+</nav>
+  </header>
+
+  <main>
+    <section class="box">
+      <div class="one">
+        <h3>Our Mission</h3>
+        <p>Defenders of Wildlife, founded in 1947, is a leading U.S. conservation organization dedicated to safeguarding
+          native animals and plants and their habitats. They advocate for policy reforms, employ scientific expertise,
+          and engage in wildlife management to protect imperiled species across North America. With a multi-pronged
+          approach, they influence decision-making in various arenas, including Congress, courts, and public discourse.
+          Their field offices enable community engagement and practical conservation solutions. Supported by members and
+          partners, Defenders of Wildlife strives to be a potent and enduring force for wildlife conservation, employing
+          knowledge, advocacy, and public support to ensure the preservation of natural ecosystems.</p>
+      </div>
+      <div class="two">
+        <h3>Our Conservation Vision</h3>
+        <p>Defenders of Wildlife envisions secure and thriving wildlife populations across North America, supported by
+          healthy lands and waters. They prioritize protecting a diverse range of species, including migratory ones, and
+          recognize the interdependence of species and habitats. Their goal is to ensure vulnerable species rebound and
+          flourish in well-distributed populations, free from the threat of rapid decline or extinction. Achieving this
+          vision requires a transnational network of both public and private lands, rivers, coastal waters, and working
+          landscapes. Through targeted conservation efforts, Defenders of Wildlife aims to create a sustainable future
+          where wildlife and ecosystems thrive harmoniously.</p>
+      </div>
+      <div class="three">
+        <h3>Our Strategic Plan</h3>
+        <p>Defenders of Wildlife's strategic plan outlines objectives and resource allocation to realize their vision
+          effectively. Emphasizing long-term solutions with measurable outcomes, it aims to bolster the organization's
+          role as a potent advocate for wildlife conservation. By clearly defining their vision and concentrating
+          resources, they aim to safeguard North America's diverse wildlife and habitats for future generations.</p>
+      </div>
+
+    </section>
+    <section class="box-two">
+      <div class="Left-side-content">
+        <h2>Our Values</h2>
+        <p>Defenders of Wildlife operates under a belief in the intrinsic value of wildlife and the natural world,
+          valuing
+          all species and habitats regardless of their utility to humans. Guided by a comprehensive values statement,
+          they
+          prioritize integrity, collaboration, and inclusivity in all endeavors. Committed to unity as "One Defenders,"
+          they emphasize diversity and collaboration in advancing wildlife conservation goals. Using the best available
+          science and technology while remaining pragmatic, they strive for lasting solutions consistent with their
+          mission. Mindful resource management ensures maximum impact in advocacy efforts while minimizing environmental
+          impact. Defenders fosters a fair, equitable workplace, prioritizing employee welfare and professional growth.
+          They embrace empowerment, accountability, and diversity, recognizing their collective strength in working
+          towards a shared goal of preserving the planet and its inhabitants.</p>
+        <h2>Diversity</h2>
+        <p>Defenders of Wildlife is dedicated to advancing wildlife conservation amidst the pressing biodiversity and
+          climate crises, emphasizing collaboration and inclusivity. They prioritize creating a positive, inclusive
+          workplace where every voice is valued, recognizing the vital role of engaged staff in fulfilling their
+          conservation mission. The organization celebrates the expertise and dedication of its employees in tackling
+          challenges such as biodiversity loss and climate change. Additionally, Defenders acknowledges Indigenous
+          Peoples
+          as the original stewards of North America's land, waters, and wildlife, committing to respectful collaboration
+          and the incorporation of traditional ecological knowledge. They strive to build equitable partnerships with
+          historically marginalized communities, valuing and integrating Indigenous guidance and priorities into their
+          conservation efforts nationwide.</p>
+        <h2>Our Staff</h2>
+      </div>
+
+      <div class="Right-side-content">
+        <img class="pictures" src="Brown_Bears.jpeg" alt=" A Brown Bear Family">
+        <img class="pictures" src="Tundra_wolf.jpeg" alt=" A Tundra Wolf">
+      </div>
+    </section>
+  </main>
+  <!--This was forked from stackoverflow LINK:https://stackoverflow.com/questions/77154422/footer-with-centered-social-media-icons -->
+  <footer>
+    <div class="footer-container">
+      <a class="link footer-left" href="index.html">Home</a>
+      <div class="footer-icons">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/nltkaczyk/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/n.l.tkaczyk/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+          </li>
+          <li><a href="https://www.youtube.com/@n.l.tkaczyk/" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <a class="link footer-right" href="contact.html">contact</a>
+    </div>
+    <img class="footer_p" src="Alaska_Sunset.jpeg" alt=" An Alaskan Sunset">
+    <div class="copyright">
+      <p style="color: #050505;">
+        2024 Defenders of Wildlife
+      </p>
+    </div>
+  </footer>
+</body>
+<script src="HomeNav.js"></script>
+</html>
