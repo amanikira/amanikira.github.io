@@ -1,2 +1,0 @@
-# amanikira.github.io
- 
